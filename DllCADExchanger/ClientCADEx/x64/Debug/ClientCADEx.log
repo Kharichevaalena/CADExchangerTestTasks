@@ -1,0 +1,14 @@
+﻿  ClientCADEx.cpp
+D:\2024\Тестовое CADEX\DllCADExchanger\DllCADExchanger\Circle.h(16,9): warning C4251: Circle::typeName: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Circle"
+  (компиляция исходного файла "ClientCADEx.cpp")
+  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(5127,29):
+   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+  
+D:\2024\Тестовое CADEX\DllCADExchanger\DllCADExchanger\Circle.h(18,18): warning C4251: Circle::Info: class "std::vector<double,std::allocator<double>>" должен иметь dll-интерфейс для использования клиентами class "Circle"
+  (компиляция исходного файла "ClientCADEx.cpp")
+  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\random(4550,25):
+   см. объявление "std::vector<double,std::allocator<double>>"
+  
+D:\2024\Тестовое CADEX\DllCADExchanger\ClientCADEx\ClientCADEx.cpp(51,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\2024\Тестовое CADEX\DllCADExchanger\ClientCADEx\ClientCADEx.cpp(97,58): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  ClientCADEx.vcxproj -> D:\2024\Тестовое CADEX\DllCADExchanger\x64\Debug\ClientCADEx.exe

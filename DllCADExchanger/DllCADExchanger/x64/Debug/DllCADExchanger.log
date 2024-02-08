@@ -1,0 +1,18 @@
+﻿  pch.cpp
+D:\2024\Тестовое CADEX\DllCADExchanger\DllCADExchanger\Circle.h(16,9): warning C4251: Circle::typeName: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Circle"
+  (компиляция исходного файла "pch.cpp")
+  D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(5127,29):
+   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+  
+D:\2024\Тестовое CADEX\DllCADExchanger\DllCADExchanger\Circle.h(18,18): warning C4251: Circle::Info: class "std::vector<double,std::allocator<double>>" должен иметь dll-интерфейс для использования клиентами class "Circle"
+  (компиляция исходного файла "pch.cpp")
+  D:\2024\Тестовое CADEX\DllCADExchanger\DllCADExchanger\Circle.h(18,2):
+   см. объявление "std::vector<double,std::allocator<double>>"
+  
+  Circle.cpp
+  dllmain.cpp
+  Ellips.cpp
+  Helix.cpp
+  Создание кода...
+     Создается библиотека D:\2024\Тестовое CADEX\DllCADExchanger\x64\Debug\DllCADExchanger.lib и объект D:\2024\Тестовое CADEX\DllCADExchanger\x64\Debug\DllCADExchanger.exp
+  DllCADExchanger.vcxproj -> D:\2024\Тестовое CADEX\DllCADExchanger\x64\Debug\DllCADExchanger.dll
